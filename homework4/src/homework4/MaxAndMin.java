@@ -1,4 +1,4 @@
-package homework5;
+package homework4;
 import java.util.*;
 public class MaxAndMin {
 	int num;
@@ -10,7 +10,7 @@ public class MaxAndMin {
 	{
 		this.q="";
 		Scanner s = new Scanner(System.in);
-		System.out.print("0ºÎÅÍ 100»çÀÌÀÇ ¼ıÀÚ ÀÔ·Â(Q: Á¹·á)");
+		System.out.print("0ë¶€í„° 100ì‚¬ì´ì˜ ìˆ«ì ì…ë ¥(Q: ì¡¸ë£Œ)");
 		
 		if(s.hasNextInt()){
 			this.num=s.nextInt();
@@ -25,7 +25,7 @@ public class MaxAndMin {
 	}
 	while(!q.equals("Q"));
 		
-	System.out.println("°¡Àå Å«¼ö´Â"+this.max+"°¡Àå ÀÛÀº¼ö ´Â"+this.min);
+	System.out.println("ê°€ì¥ í°ìˆ˜ëŠ”"+this.max+"ê°€ì¥ ì‘ì€ìˆ˜ ëŠ”"+this.min);
 	}
 	
 	
